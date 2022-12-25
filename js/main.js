@@ -9,7 +9,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 13000
     },
     {
         id: "diseño-2",
@@ -19,7 +19,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 10000
     },
     {
         id: "diseño-3",
@@ -29,7 +29,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 13000
     },
     {
         id: "diseño-4",
@@ -39,7 +39,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 10000
     },
     {
         id: "diseño-5",
@@ -49,7 +49,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 13000
     },
     {
         id: "diseño-6",
@@ -59,7 +59,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 8000
     },
     {
         id: "diseño-7",
@@ -69,7 +69,7 @@ const productos = [
             nombre: "Diseños",
             id: "diseños"
         },
-        precio: 1000
+        precio: 8000
     },
     // seccion 2
     {
@@ -80,7 +80,7 @@ const productos = [
             nombre: "Bolsillo",
             id: "mini"
         },
-        precio: 1000
+        precio: 9000
     },
     {
         id: "mini-2",
@@ -90,7 +90,7 @@ const productos = [
             nombre: "Bolsillo",
             id: "mini"
         },
-        precio: 1000
+        precio: 8500
     },
     {
         id: "mini-3",
@@ -100,7 +100,7 @@ const productos = [
             nombre: "Bolsillo",
             id: "mini"
         },
-        precio: 1000
+        precio: 8500
     },
     {
         id: "mini-4",
@@ -110,7 +110,7 @@ const productos = [
             nombre: "Bolsillo",
             id: "mini"
         },
-        precio: 1000
+        precio: 8500
     },
     // seccion 3
     {
@@ -121,7 +121,7 @@ const productos = [
             nombre: "Colores",
             id: "colores"
         },
-        precio: 1000
+        precio: 9500
     },
     {
         id: "colores-2",
@@ -131,7 +131,7 @@ const productos = [
             nombre: "Colores",
             id: "colores"
         },
-        precio: 1000
+        precio: 9500
     },
     {
         id: "colores-3",
@@ -141,7 +141,7 @@ const productos = [
             nombre: "Colores",
             id: "colores"
         },
-        precio: 1000
+        precio: 9500
     },
     {
         id: "colores-4",
@@ -151,7 +151,7 @@ const productos = [
             nombre: "Colores",
             id: "colores"
         },
-        precio: 1000
+        precio: 13000
     },
     {
         id: "colores-5",
@@ -161,7 +161,7 @@ const productos = [
             nombre: "Colores",
             id: "colores"
         },
-        precio: 1000
+        precio: 24000
     }
 ];
 

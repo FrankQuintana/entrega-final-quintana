@@ -118,7 +118,7 @@ main {
 }
 
 .producto-detalles {
-    background-color: #9b8a87;
+    background-color: #e2e2e2;
     color: #000;
     padding: .5rem;
     border-radius: 1rem;
@@ -222,7 +222,7 @@ main {
     padding: 1rem;
     border-radius: 1rem;
     color: #000;
-    font-size: 1rem;
+    font-size: 1.15rem;
     text-transform: uppercase;
     cursor: pointer;
 }
@@ -247,7 +247,7 @@ main {
 }
 
 .carrito-acciones-comprar {
-    background-color: #25e2e9;
+    background-color: #789091;
     padding: 1rem;
     color: #000;
     font-size: 1.5rem;
@@ -255,6 +255,10 @@ main {
     cursor: pointer;
     border-bottom-left-radius: 1rem;
     border-bottom-right-radius: 1rem;
+}
+.carrito-acciones-comprar:hover {
+    background-color: #25e2e9;
+    color: #000;
 }
 
 
