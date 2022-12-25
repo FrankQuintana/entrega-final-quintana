@@ -1,6 +1,6 @@
 // PRODUCTOS
 const productos = [
-    // Diseños
+    // seccion 1
     {
         id: "diseño-1",
         titulo: "Diseño marmol",
@@ -71,7 +71,7 @@ const productos = [
         },
         precio: 1000
     },
-    // Bolsillo
+    // seccion 2
     {
         id: "mini-1",
         titulo: "Bolsillo cuero",
@@ -112,47 +112,7 @@ const productos = [
         },
         precio: 1000
     },
-    // {
-    //     id: "mini-5",
-    //     titulo: "Camiseta 05",
-    //     imagen: "./img/mini/bolsillo5.jpg",
-    //     categoria: {
-    //         nombre: "Bolsillo",
-    //         id: "mini"
-    //     },
-    //     precio: 1000
-    // },
-    // {
-    //     id: "mini-6",
-    //     titulo: "Camiseta 06",
-    //     imagen: "./img/mini/bolsillo6.jpg",
-    //     categoria: {
-    //         nombre: "Bolsillo",
-    //         id: "mini"
-    //     },
-    //     precio: 1000
-    // },
-    // {
-    //     id: "mini-7",
-    //     titulo: "Camiseta 07",
-    //     imagen: "./img/mini/bolsillo7.jpg",
-    //     categoria: {
-    //         nombre: "Bolsillo",
-    //         id: "mini"
-    //     },
-    //     precio: 1000
-    // },
-    // {
-    //     id: "mini-8",
-    //     titulo: "Camiseta 08",
-    //     imagen: "./img/mini/bolsillo8.jpg",
-    //     categoria: {
-    //         nombre: "Bolsillo",
-    //         id: "mini"
-    //     },
-    //     precio: 1000
-    // },
-    // Colores
+    // seccion 3
     {
         id: "colores-1",
         titulo: "Color morado",
@@ -295,6 +255,6 @@ function agregarAlCarrito(e) {
 }
 
 function actualizarNumerito() {
-    let nuevoNumerito = productosEnCarrito.reduce((acc, producto) => acc + producto.cantidad, 0);
+    let nuevoNumerito = productosEnCarrito.reduce((ca, producto) => ca + producto.cantidad, 0);
     numerito.innerText = nuevoNumerito;
 }
