@@ -11,8 +11,8 @@
 <body>
 
     <div class="car">
-        <header>
-            <div class="logo">
+        <header class="header-car">
+            <div class="logo-car">
                 <img src="./img/logonuevocorto.png" alt="">
             </div>
             <nav>
@@ -30,13 +30,13 @@
                 </ul>
             </nav>
         </header>
-        
-        <main >
+        <main>
+            <h1 class="titulo-principal">Tus productos</h1>
             <div class="contenedor-carrito">
                 <p id="carrito-vacio" class="carrito-vacio">Tu carrito está vacio</p>
 
                 <div id="carrito-productos" class="carrito-productos disabled">
-                    <!-- js -->
+                    <!-- jS -->
                 </div>
 
                 <div id="carrito-acciones" class="carrito-acciones disabled">
@@ -46,13 +46,13 @@
                     <div class="carrito-acciones-derecha">
                         <div class="carrito-acciones-total">
                             <p>Total:</p>
-                            <p id="total">$$$$$</p>
+                            <p id="total"></p>
                         </div>
                         <button id="carrito-acciones-comprar" class="carrito-acciones-comprar">Comprar</button>
                     </div>
                 </div>
 
-                <p id="carrito-comprado" class="carrito-comprado disabled">Gracias por tu compra.</p>
+                <p id="carrito-comprado" class="carrito-comprado carrito-alerta disabled">Gracias por tu compra. </p>
 
             </div>
         </main>
