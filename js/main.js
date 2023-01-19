@@ -1,170 +1,11 @@
-// PRODUCTOS
-const productos = [
-    // seccion 1
-    {
-        id: "diseño-1",
-        titulo: "Diseño marmol",
-        imagen: "./img/diseño/diseño1.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 13000
-    },
-    {
-        id: "diseño-2",
-        titulo: "Diseño llama",
-        imagen: "./img/diseño/diseño2.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 10000
-    },
-    {
-        id: "diseño-3",
-        titulo: "Diseño buho dona",
-        imagen: "./img/diseño/diseño3.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 13000
-    },
-    {
-        id: "diseño-4",
-        titulo: "Diseño mapa mundi",
-        imagen: "./img/diseño/diseño4.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 10000
-    },
-    {
-        id: "diseño-5",
-        titulo: "Diseño anteojos",
-        imagen: "./img/diseño/diseño5.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 13000
-    },
-    {
-        id: "diseño-6",
-        titulo: "Diseño bailarina",
-        imagen: "./img/diseño/diseño6.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 8000
-    },
-    {
-        id: "diseño-7",
-        titulo: "Diseño cosas boas",
-        imagen: "./img/diseño/diseño7.jpg",
-        categoria: {
-            nombre: "Diseños",
-            id: "diseños"
-        },
-        precio: 8000
-    },
-    // seccion 2
-    {
-        id: "mini-1",
-        titulo: "Bolsillo cuero",
-        imagen: "./img/mini/bolsillo1.jpg",
-        categoria: {
-            nombre: "Bolsillo",
-            id: "mini"
-        },
-        precio: 9000
-    },
-    {
-        id: "mini-2",
-        titulo: "Bolsillo marfil",
-        imagen: "./img/mini/bolsillo2.jpg",
-        categoria: {
-            nombre: "Bolsillo",
-            id: "mini"
-        },
-        precio: 8500
-    },
-    {
-        id: "mini-3",
-        titulo: "Bolsillo mini L",
-        imagen: "./img/mini/bolsillo3.jpg",
-        categoria: {
-            nombre: "Bolsillo",
-            id: "mini"
-        },
-        precio: 8500
-    },
-    {
-        id: "mini-4",
-        titulo: "Bolsillo mini V",
-        imagen: "./img/mini/bolsillo4.jpg",
-        categoria: {
-            nombre: "Bolsillo",
-            id: "mini"
-        },
-        precio: 8500
-    },
-    // seccion 3
-    {
-        id: "colores-1",
-        titulo: "Color morado",
-        imagen: "./img/colores/colores1.jpg",
-        categoria: {
-            nombre: "Colores",
-            id: "colores"
-        },
-        precio: 9500
-    },
-    {
-        id: "colores-2",
-        titulo: "Color marfil",
-        imagen: "./img/colores/colores2.jpg",
-        categoria: {
-            nombre: "Colores",
-            id: "colores"
-        },
-        precio: 9500
-    },
-    {
-        id: "colores-3",
-        titulo: "Color arcoiris",
-        imagen: "./img/colores/colores3.jpg",
-        categoria: {
-            nombre: "Colores",
-            id: "colores"
-        },
-        precio: 9500
-    },
-    {
-        id: "colores-4",
-        titulo: "Colores pastel",
-        imagen: "./img/colores/colores4.jpg",
-        categoria: {
-            nombre: "Colores",
-            id: "colores"
-        },
-        precio: 13000
-    },
-    {
-        id: "colores-5",
-        titulo: "Color pastel x2",
-        imagen: "./img/colores/colores5.jpg",
-        categoria: {
-            nombre: "Colores",
-            id: "colores"
-        },
-        precio: 24000
-    }
-];
+let productos = [];
 
+fetch("./js/productos.json")
+.then(response => response.json())
+.then(data => {
+    productos = data;
+    cargarProductos(productos);
+})
 
 const contenedorProductos = document.querySelector("#contenedor-productos");
 const botonesCategorias = document.querySelectorAll(".boton-categoria");
@@ -196,7 +37,7 @@ function cargarProductos(productosElegidos) {
     actualizarBotonesAgregar();
 }
 
-cargarProductos(productos);
+//cargarProductos(productos);
 
 
 botonesCategorias.forEach(boton => {
