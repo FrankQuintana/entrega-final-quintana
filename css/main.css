@@ -268,3 +268,36 @@ main {
         width: 120%;
     }
 }
+/* media 1024 */
+@media (min-width: 1024px) {
+    .logo-car {
+        text-align: center;
+    }
+    .logo-car img {
+        width: 50%;
+    }
+    main {
+        padding: 3rem;
+    }
+    .carrito-producto {
+        padding: 1rem;
+    }
+    .carrito-producto-imagen {
+        width: 10%;
+    }
+    .carrito-producto-titulo h3 {
+        font-size: 2rem;
+    }
+    .carrito-acciones-vaciar,
+    .carrito-acciones-comprar,
+    .carrito-acciones-total {
+        font-size: 1.18rem;
+    }
+    .carrito-acciones-total{
+        width: 500px;
+    }
+    .carrito-acciones-vaciar {
+        width: 250px;
+    }
+
+}

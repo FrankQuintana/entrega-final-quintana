@@ -1,7 +1,7 @@
 [
     {
         "id": "diseño-1",
-        "titulo": "Diseño marmol",
+        "titulo": "Marmol",
         "imagen": "./img/diseño/diseño1.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -11,7 +11,7 @@
     },
     {
         "id": "diseño-2",
-        "titulo": "Diseño llama",
+        "titulo": "Llama",
         "imagen": "./img/diseño/diseño2.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -21,7 +21,7 @@
     },
     {
         "id": "diseño-3",
-        "titulo": "Diseño buho dona",
+        "titulo": "Buho dona",
         "imagen": "./img/diseño/diseño3.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -31,7 +31,7 @@
     },
     {
         "id": "diseño-4",
-        "titulo": "Diseño mapa mundi",
+        "titulo": "Mapa mundi",
         "imagen": "./img/diseño/diseño4.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -41,7 +41,7 @@
     },
     {
         "id": "diseño-5",
-        "titulo": "Diseño anteojos",
+        "titulo": "Anteojos",
         "imagen": "./img/diseño/diseño5.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -51,7 +51,7 @@
     },
     {
         "id": "diseño-6",
-        "titulo": "Diseño bailarina",
+        "titulo": "Bailarina",
         "imagen": "./img/diseño/diseño6.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -61,7 +61,7 @@
     },
     {
         "id": "diseño-7",
-        "titulo": "Diseño cosas boas",
+        "titulo": "Cosas boas",
         "imagen": "./img/diseño/diseño7.jpg",
         "categoria": {
             "nombre": "Diseños",
@@ -71,7 +71,7 @@
     },
     {
         "id": "mini-1",
-        "titulo": "Bolsillo cuero",
+        "titulo": "Cuero",
         "imagen": "./img/mini/bolsillo1.jpg",
         "categoria": {
             "nombre": "Bolsillo",
@@ -81,7 +81,7 @@
     },
     {
         "id": "mini-2",
-        "titulo": "Bolsillo marfil",
+        "titulo": "M. Marfil",
         "imagen": "./img/mini/bolsillo2.jpg",
         "categoria": {
             "nombre": "Bolsillo",
@@ -91,7 +91,7 @@
     },
     {
         "id": "mini-3",
-        "titulo": "Bolsillo mini L",
+        "titulo": "Mini L",
         "imagen": "./img/mini/bolsillo3.jpg",
         "categoria": {
             "nombre": "Bolsillo",
@@ -101,7 +101,7 @@
     },
     {
         "id": "mini-4",
-        "titulo": "Bolsillo mini V",
+        "titulo": "Mini V",
         "imagen": "./img/mini/bolsillo4.jpg",
         "categoria": {
             "nombre": "Bolsillo",
@@ -111,7 +111,7 @@
     },
     {
         "id": "colores-1",
-        "titulo": "Color morado",
+        "titulo": "Morado",
         "imagen": "./img/colores/colores1.jpg",
         "categoria": {
             "nombre": "Colores",
@@ -121,7 +121,7 @@
     },
     {
         "id": "colores-2",
-        "titulo": "Color marfil",
+        "titulo": "Marfil",
         "imagen": "./img/colores/colores2.jpg",
         "categoria": {
             "nombre": "Colores",
@@ -131,7 +131,7 @@
     },
     {
         "id": "colores-3",
-        "titulo": "Color arcoiris",
+        "titulo": "Arcoiris",
         "imagen": "./img/colores/colores3.jpg",
         "categoria": {
             "nombre": "Colores",
@@ -141,7 +141,7 @@
     },
     {
         "id": "colores-4",
-        "titulo": "Colores pastel",
+        "titulo": "Pastel",
         "imagen": "./img/colores/colores4.jpg",
         "categoria": {
             "nombre": "Colores",
@@ -151,7 +151,7 @@
     },
     {
         "id": "colores-5",
-        "titulo": "Color pastel x2",
+        "titulo": "Pastel x2",
         "imagen": "./img/colores/colores5.jpg",
         "categoria": {
             "nombre": "Colores",

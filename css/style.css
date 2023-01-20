@@ -179,9 +179,6 @@ main {
     .nav:target {
         --state-close: scale(0);
     }
-    /* .logo img {
-        width: 100%;
-    } */
     .nav-logo {
         justify-self: center;
         grid-column-start: 1;
@@ -251,6 +248,10 @@ main {
         grid-template-columns: 1fr;
         gap: 2rem;
     }
+    .nav-logo {
+        justify-self: center;
+        width: 40%;
+    }
     .nav-ul {
         padding: 0 40px;
         gap: 0;
@@ -270,5 +271,8 @@ main {
     .titulo-principal {
         font-size: 2.5rem;
         font-weight: 400;
+    }
+    .producto-titulo {
+        font-size: 1.3rem;
     }
 }
