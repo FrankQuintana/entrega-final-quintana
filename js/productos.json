@@ -1,0 +1,162 @@
+[
+    {
+        "id": "diseño-1",
+        "titulo": "Marmol",
+        "imagen": "./img/diseño/diseño1.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "diseño-2",
+        "titulo": "Llama",
+        "imagen": "./img/diseño/diseño2.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "diseño-3",
+        "titulo": "Buho dona",
+        "imagen": "./img/diseño/diseño3.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "diseño-4",
+        "titulo": "Mapa mundi",
+        "imagen": "./img/diseño/diseño4.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 10000
+    },
+    {
+        "id": "diseño-5",
+        "titulo": "Anteojos",
+        "imagen": "./img/diseño/diseño5.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "diseño-6",
+        "titulo": "Bailarina",
+        "imagen": "./img/diseño/diseño6.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "diseño-7",
+        "titulo": "Cosas boas",
+        "imagen": "./img/diseño/diseño7.jpg",
+        "categoria": {
+            "nombre": "Diseños",
+            "id": "diseños"
+        },
+        "precio": 8000
+    },
+    {
+        "id": "mini-1",
+        "titulo": "Cuero",
+        "imagen": "./img/mini/bolsillo1.jpg",
+        "categoria": {
+            "nombre": "Bolsillo",
+            "id": "mini"
+        },
+        "precio": 9000
+    },
+    {
+        "id": "mini-2",
+        "titulo": "M. Marfil",
+        "imagen": "./img/mini/bolsillo2.jpg",
+        "categoria": {
+            "nombre": "Bolsillo",
+            "id": "mini"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "mini-3",
+        "titulo": "Mini L",
+        "imagen": "./img/mini/bolsillo3.jpg",
+        "categoria": {
+            "nombre": "Bolsillo",
+            "id": "mini"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "mini-4",
+        "titulo": "Mini V",
+        "imagen": "./img/mini/bolsillo4.jpg",
+        "categoria": {
+            "nombre": "Bolsillo",
+            "id": "mini"
+        },
+        "precio": 8500
+    },
+    {
+        "id": "colores-1",
+        "titulo": "Morado",
+        "imagen": "./img/colores/colores1.jpg",
+        "categoria": {
+            "nombre": "Colores",
+            "id": "colores"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "colores-2",
+        "titulo": "Marfil",
+        "imagen": "./img/colores/colores2.jpg",
+        "categoria": {
+            "nombre": "Colores",
+            "id": "colores"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "colores-3",
+        "titulo": "Arcoiris",
+        "imagen": "./img/colores/colores3.jpg",
+        "categoria": {
+            "nombre": "Colores",
+            "id": "colores"
+        },
+        "precio": 9500
+    },
+    {
+        "id": "colores-4",
+        "titulo": "Pastel",
+        "imagen": "./img/colores/colores4.jpg",
+        "categoria": {
+            "nombre": "Colores",
+            "id": "colores"
+        },
+        "precio": 13000
+    },
+    {
+        "id": "colores-5",
+        "titulo": "Pastel x2",
+        "imagen": "./img/colores/colores5.jpg",
+        "categoria": {
+            "nombre": "Colores",
+            "id": "colores"
+        },
+        "precio": 24000
+    }
+]
